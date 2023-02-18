@@ -1,0 +1,55 @@
+.comminication{
+    background: #579bb1;
+    height: 200vh;
+    h1{
+        font-family: 'IBM Plex Sans Devanagari';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 69px;
+        line-height: 106px;
+        text-align: center;
+        padding-top: 175px;
+        color: #000000;
+    }
+    img{
+        margin-left: 17%;
+        margin-top: 85px;
+    }
+    .List{
+        display: flex;
+        flex-direction: column;
+        .flex-coloum{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            height: 70vh;
+            div{
+                display: flex;
+                i{
+                        margin: 50px 24px 0px 15px;
+                }
+                p{
+                    font-family: 'Istok Web';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: #000000;
+                    margin-top: 44px;
+                    text-align: end;
+                }
+            }
+        }
+        h3{
+            font-family: 'Istok Web';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            color: #000000;
+            text-align: center;
+            margin-top: 69px;
+        }
+    }
+}

@@ -1,0 +1,398 @@
+*, html { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; text-decoration: none; }
+
+nav { background: #001E6C; width: 100%; }
+
+nav .navbar { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+nav .navbar .logo { width: 33%; }
+
+nav .navbar .logo img { width: 32px; height: 37px; margin-left: 21px; cursor: pointer; }
+
+nav .navbar .btns { width: 33%; }
+
+nav .navbar .btns ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+
+nav .navbar .btns ul li { list-style: none; }
+
+nav .navbar .btns ul li a { text-decoration: none; color: white; font-family: sans-serif; }
+
+nav .navbar .profile { width: 33%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; }
+
+nav .navbar .profile img { width: 40px; height: 40px; cursor: pointer; margin: 10px 21px 10px 0px; }
+
+footer { width: 100%; height: 50vh; background-color: #0882E9; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+footer .footer { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; width: 100%; }
+
+footer .footer div { background-color: #001E6C; border-radius: 50%; width: 220px; height: 220px; }
+
+.Logup { background: #E8630A; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.Logup .login { background: rgba(191, 158, 158, 0.58); width: 50%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.Logup .login div { width: 100%; }
+
+.Logup .login div form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.Logup .login div form ::-webkit-input-placeholder { color: white; }
+
+.Logup .login div form :-ms-input-placeholder { color: white; }
+
+.Logup .login div form ::-ms-input-placeholder { color: white; }
+
+.Logup .login div form ::placeholder { color: white; }
+
+.Logup .login div form input { background: #035397; border-radius: 29px; border: none; outline: none; padding: 25px 36px 25px 36px; margin-top: 20px; width: 35%; font-size: 15px; color: white; }
+
+.Logup .login div .btn-login { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 15px; margin-left: 10px; }
+
+.Logup .login div .btn-login .btn-forgot { background: none; border: none; outline: none; }
+
+.Logup .login div .btn-login .btn-forgot a { color: #035397; text-decoration: none; margin-right: 115px; }
+
+.Logup .login div .btn-login .btn-sure { border: none; outline: none; background: #035397; border-radius: 29px; border: none; outline: none; padding: 11px 15px 15px 15px; margin-left: 20px; cursor: pointer; }
+
+.Logup .login div .btn-login .btn-sure a { color: white; text-decoration: none; }
+
+.Logup .title { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; width: 50%; }
+
+.Logup .title h1 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: end; padding-left: 39%; font-family: 'Readex Pro', sans-serif; font-weight: 400; font-size: 81px; line-height: 106px; text-align: right; color: #035397; }
+
+.content content h1 { margin-top: -30%; font-family: sans-serif, 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 51px; line-height: 78px; text-align: right; color: white; margin-right: 50px; }
+
+.content content p { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 25px; line-height: 180px; text-align: right; color: white; margin-right: 50px; }
+
+.content main { background: #cce8fe; width: 100%; height: 100vh; margin-top: 12%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.content main h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 28px; line-height: 43px; color: #008AFF; padding-top: 3%; }
+
+.content main .video { background-color: white; border-radius: 35px; width: 919px; height: 536px; margin-top: 145px; }
+
+.ChosingPage { background-color: #cce8fe; width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.ChosingPage h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 500; font-size: 80px; text-align: center; height: 34vh; margin-top: 5%; }
+
+.ChosingPage .flexbox { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; height: 190vh; }
+
+.ChosingPage .flexbox button { height: 52vh; border: none; outline: none; background: none; }
+
+.ChosingPage .flexbox button div { cursor: pointer; }
+
+.ChosingPage .flexbox button div h4 { font-family: 'Inika'; font-style: normal; font-weight: 400; font-size: 43px; line-height: 56px; color: #000000; text-align: center; margin-top: -55%; position: relative; }
+
+.ChosingPage .flexbox button div img { width: 359px; height: 344px; -webkit-box-shadow: 3px 4px 13px rgba(217, 217, 217, 0.6); box-shadow: 3px 4px 13px rgba(217, 217, 217, 0.6); border-radius: 15px; opacity: 0.5; }
+
+.chooding { background-color: #cce8fe; width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.chooding .colom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.chooding .colom .row { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+
+.chooding .colom .row button { border: none; background: none; outline: none; }
+
+.chooding .colom .row button div { background: #0882E9; border-radius: 15px; padding: 56px 131px 56px 131px; color: white; font-family: 'Imprima'; font-style: normal; font-weight: 400; font-size: 200px; line-height: 232px; -webkit-box-shadow: 2px 2px 5px black; box-shadow: 2px 2px 5px black; margin-right: 57px; margin-bottom: 35px; }
+
+.FillList { background: #035595; width: 100%; height: 100vh; }
+
+.FillList .flexbox { height: 100vh; }
+
+.FillList .flexbox ::-webkit-input-placeholder { color: white; }
+
+.FillList .flexbox :-ms-input-placeholder { color: white; }
+
+.FillList .flexbox ::-ms-input-placeholder { color: white; }
+
+.FillList .flexbox ::placeholder { color: white; }
+
+.FillList .flexbox input { background: #7C97B4; border-radius: 19px; border: none; outline: none; padding: 25px; margin-top: 20px; font-size: 15px; color: white; width: 115%; -webkit-box-shadow: 5px 3px 20px black; box-shadow: 5px 3px 20px black; text-align: end; }
+
+.FillList .flexbox .row-1 { height: 40vh; margin-right: 31%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; }
+
+.FillList .flexbox .row-1 .row-1-1 { width: 20%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-right: 17%; }
+
+.FillList .flexbox .row-1 .row-1-2 { width: 20%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.FillList .flexbox .row-2 { width: 100%; height: 15vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.FillList .flexbox .row-2 label { background: #7C97B4; border-radius: 19px; height: 10vh; width: 41%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-shadow: 5px 3px 20px black; box-shadow: 5px 3px 20px black; }
+
+.FillList .flexbox .row-3 { height: 35vh; margin-right: 31%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; }
+
+.FillList .flexbox .row-3 .row-3-1 { width: 20%; height: 35vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-right: 17%; }
+
+.FillList .flexbox .row-3 .row-3-2 { width: 20%; height: 35vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.FillList .flexbox .row-btn { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.FillList .flexbox .row-btn .row-btn-2 { background: #7C97B4; border-radius: 19px; border: none; outline: none; padding-top: 15px; padding-bottom: 15px; padding-left: 40px; padding-right: 40px; -webkit-box-shadow: 5px 3px 20px black; box-shadow: 5px 3px 20px black; cursor: pointer; }
+
+.FillList .flexbox .row-btn .row-btn-2 a { color: white; font-family: sans-serif, 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 500; font-size: 15px; line-height: 28px; }
+
+.pay { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100%; height: 100vh; background-color: #035595; }
+
+.pay h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 40px; line-height: 61px; color: #000000; text-align: center; }
+
+.pay .box { background: #E8630A; border: 2px solid #000000; border-radius: 16px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 292px; height: 270px; margin-top: 76px; -webkit-box-shadow: 4px 2px 13px black; box-shadow: 4px 2px 13px black; }
+
+.pay .box .flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; }
+
+.pay .box .flex .dot { background: #ffffff; border: 4px solid #000000; width: 33px; height: 33px; border-radius: 50%; margin-left: 60px; }
+
+.pay .box .flex .dot:hover { background-color: red; cursor: pointer; -webkit-transition: 0.2s; transition: 0.2s; }
+
+.pay .box .flex p { margin-top: 20px; margin-bottom: 19px; font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 29px; line-height: 44px; color: #000000; }
+
+.pay .box .flex span { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 42px; line-height: 64px; color: #000000; }
+
+.pay .flex-icon { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.pay .flex-icon h2 { margin-top: 76px; }
+
+.pay .pays-info { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.pay .pays-info ::-webkit-input-placeholder { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 31px; color: black; padding-left: 5px; }
+
+.pay .pays-info :-ms-input-placeholder { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 31px; color: black; padding-left: 5px; }
+
+.pay .pays-info ::-ms-input-placeholder { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 31px; color: black; padding-left: 5px; }
+
+.pay .pays-info ::placeholder { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 31px; color: black; padding-left: 5px; }
+
+.pay .pays-info input { margin-top: 36px; background: none; border: 2px solid #000000; border-radius: 9px; font-size: 20px; color: white; padding-left: 15px; }
+
+.pay .flex-btn { width: 100%; height: 10vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; }
+
+.pay .flex-btn .btn-pay { background: #E8630A; border: 2px solid #000000; border-radius: 9px; margin-right: 33%; }
+
+.pay .flex-btn a { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 400; font-size: 24px; line-height: 37px; letter-spacing: 0.04em; color: #000000; padding: 10px 20px 10px 20px; }
+
+.back { background-image: -webkit-gradient(linear, left bottom, right top, from(#e55e17), to(#ada8ca)); background-image: linear-gradient(to top right, #e55e17, #ada8ca); width: 100%; height: 100vh; background-size: 200%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.back .finel { background: rgba(194, 137, 137, 0.44); border-radius: 21px; width: 50%; height: 50vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.back .finel h1 { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 400; font-size: 32px; line-height: 42px; text-align: right; letter-spacing: 0.04em; color: #000000; }
+
+.PsychologicalHealth { background: #3c69c9; width: 100%; height: 100vh; }
+
+.PsychologicalHealth button { background: none; border: none; outline: none; }
+
+.PsychologicalHealth h1 { text-align: center; padding-top: 79px; font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 43px; line-height: 66px; color: #000000; }
+
+.PsychologicalHealth .chossing .row-RP { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.PsychologicalHealth .chossing .row-RP .reading { width: 25%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; border-right: 2px solid black; border-bottom: 2px solid black; cursor: pointer; }
+
+.PsychologicalHealth .chossing .row-RP .PodcastPodcast { width: 25%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; cursor: pointer; }
+
+.PsychologicalHealth .chossing .row-SC { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.PsychologicalHealth .chossing .row-SC .SchoolTips { width: 25%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; border-right: 2px solid black; padding-top: 35px; cursor: pointer; }
+
+.PsychologicalHealth .chossing .row-SC .communication { width: 25%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-top: -2px; border-top: 2px solid black; padding-top: 42px; cursor: pointer; }
+
+.read { background: #3c69c9; width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.read img { cursor: pointer; }
+
+.read .book { width: 50%; text-align: center; }
+
+.read .book button { border: none; outline: none; background: none; }
+
+.read .book button a { color: black; }
+
+.read .bookandpen { width: 50%; text-align: center; border-left: 1px solid #000000; }
+
+.read .bookandpen button { border: none; outline: none; background: none; }
+
+.read .bookandpen button a { color: black; }
+
+.read .bookandpen h1 { padding-right: 22%; cursor: pointer; }
+
+.books { background: #5a9cb0; width: 100%; }
+
+.books .bacground { width: 60%; height: 475px; background: #E1D7C6; border-radius: 22px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.books h1 { padding-top: 105px; text-align: center; }
+
+.books .beatiful { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 96px; margin-top: 186px; }
+
+.books .beatiful .titels { background: #E99B08; border-radius: 8px; width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; height: 15%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 22px 0px 34px 55%; }
+
+.books .beatiful .titels h2 { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 31px; line-height: 36px; text-align: right; color: #000000; padding-left: 0px; margin-right: 10px; }
+
+.books .beatiful p { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 29px; line-height: 33px; text-align: right; color: #000000; padding: 0px 44px 0px 16px; }
+
+.books .theory { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 96px; margin-top: 186px; }
+
+.books .theory .titels { background: #E99B08; border-radius: 8px; width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; height: 15%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 22px 0px 34px 55%; }
+
+.books .theory .titels h2 { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 31px; line-height: 36px; text-align: right; color: #000000; padding-left: 0px; margin-right: 10px; }
+
+.books .theory p { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 29px; line-height: 33px; text-align: right; color: #000000; padding: 0px 44px 0px 16px; }
+
+.books .power { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 96px; margin-top: 186px; }
+
+.books .power .titels { background: #E99B08; border-radius: 8px; width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; height: 15%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 22px 0px 34px 55%; }
+
+.books .power .titels h2 { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 31px; line-height: 36px; text-align: right; color: #000000; padding-left: 0px; margin-right: 10px; }
+
+.books .power p { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 29px; line-height: 33px; text-align: right; color: #000000; padding: 0px 44px 0px 16px; }
+
+.books .focus { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 96px; margin-top: 186px; }
+
+.books .focus .titels { background: #E99B08; border-radius: 8px; width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; height: 15%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 22px 0px 34px 55%; }
+
+.books .focus .titels h2 { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 31px; line-height: 36px; text-align: right; color: #000000; padding-left: 0px; margin-right: 10px; }
+
+.books .focus p { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 29px; line-height: 33px; text-align: right; color: #000000; padding: 0px 44px 0px 16px; }
+
+.books .bigbrain { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 96px; margin-top: 186px; }
+
+.books .bigbrain .titels { background: #E99B08; border-radius: 8px; width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; height: 15%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 22px 0px 34px 55%; }
+
+.books .bigbrain .titels h2 { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 31px; line-height: 36px; text-align: right; color: #000000; padding-left: 0px; margin-right: 10px; }
+
+.books .bigbrain p { font-family: 'Judson'; font-style: normal; font-weight: 400; font-size: 29px; line-height: 33px; text-align: right; color: #000000; padding: 0px 44px 0px 16px; }
+
+.books { background: #5a9cb0; width: 100%; height: 340vh; }
+
+.books h1 { padding-top: 105px; text-align: center; padding-bottom: 186px; }
+
+.books div { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.books div .bacground { width: 80%; height: 475px; background: #E1D7C6; border-radius: 22px; }
+
+.books div .bacground .flexobit { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.books div .bacground .flexobit .img-flexbox img { width: 370px; height: 361px; }
+
+.books div .bacground .flexobit .titels { background: #E99B08; border-radius: 8px; width: 30%; }
+
+.books div .bacground .flexobit .titels h2 { margin: 20px 9px 20px 4px; font-family: sans-serif, 'Josefin Sans'; font-style: normal; font-weight: 400; font-size: 30px; line-height: 30px; text-align: right; color: #000000; }
+
+.books .diff img { background: #8E6D6D; border-radius: 11px; }
+
+.books .diff .bacground .flexobit .loading { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 30%; height: 28vh; }
+
+.books .diff .bacground .flexobit .loading .titels { background: #E99B08; border-radius: 8px; width: 70%; height: 7vh; }
+
+.books .diff .bacground .flexobit .loading p { background: #E99B08; border-radius: 50px; width: 100%; height: 2vh; }
+
+.mic { background-color: #3f66cc; }
+
+.mic .titel-center { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding-top: 3%; }
+
+.mic .titel-center i { width: 10%; height: 13%; font-size: 100px; text-align: center; }
+
+.mic .titel-center h1 { padding-top: 2%; }
+
+.mic .youtube { background: rgba(87, 155, 177, 0.42); border-radius: 20px; width: 40%; height: 133vh; margin-left: 30%; margin-top: 3%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.mic .youtube a button { background: none; border: none; outline: none; }
+
+.mic .youtube a button img { width: 412px; height: 213px; margin-top: 8%; cursor: pointer; }
+
+.mic .youtube div { height: 33vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.mic .youtube div h2 { margin-right: 37px; }
+
+.Homecommunication { background: #3c69c9; width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.Homecommunication img { cursor: pointer; }
+
+.Homecommunication button { border: none; outline: none; background: none; }
+
+.Homecommunication h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 50px; line-height: 76px; color: #000000; cursor: pointer; }
+
+.Homecommunication .teacher { width: 50%; text-align: center; }
+
+.Homecommunication .friend { width: 50%; text-align: center; border-left: 1px solid #000000; }
+
+.comminication { background: #579bb1; height: 200vh; }
+
+.comminication h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 69px; line-height: 106px; text-align: center; padding-top: 175px; color: #000000; }
+
+.comminication img { margin-left: 17%; margin-top: 85px; }
+
+.comminication .List { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.comminication .List .flex-coloum { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: end; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 70vh; }
+
+.comminication .List .flex-coloum div { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.comminication .List .flex-coloum div i { margin: 50px 24px 0px 15px; }
+
+.comminication .List .flex-coloum div p { font-family: 'Istok Web'; font-style: normal; font-weight: 400; font-size: 22px; line-height: 32px; color: #000000; margin-top: 44px; text-align: end; }
+
+.comminication .List h3 { font-family: 'Istok Web'; font-style: normal; font-weight: 400; font-size: 28px; line-height: 40px; color: #000000; text-align: center; margin-top: 69px; }
+
+.advice { background: #3f66cc; height: 320vh; }
+
+.advice .titel-center { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 43px; line-height: 66px; color: #000000; text-align: center; padding-top: 158px; }
+
+.advice .titel-center img { width: 106px; height: 103px; }
+
+.advice h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 50px; line-height: 76px; color: #000000; text-align: center; margin: 161px 0px 169px 0px; }
+
+.advice .List { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.advice .List .flex-coloum { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: end; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.advice .List .flex-coloum div { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.advice .List .flex-coloum div i { margin: 5px 24px 0px 15px; }
+
+.advice .List .flex-coloum div p { font-family: 'Homemade Apple'; font-style: normal; font-weight: 400; font-size: 27px; line-height: 58px; color: #000000; text-align: end; margin-top: 14px; }
+
+.advice .List h3 { font-family: 'Istok Web'; font-style: normal; font-weight: 400; font-size: 28px; line-height: 40px; color: #000000; text-align: center; margin-top: 69px; }
+
+.advice a button { background: #E8630A; border: 2px solid #000000; border-radius: 16px; padding: 5% 15% 5% 15%; margin-left: 34.5%; font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 65px; line-height: 99px; color: #000000; }
+
+.Homecommunication { background: #A284D2; width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.Homecommunication img { cursor: pointer; }
+
+.Homecommunication button { border: none; outline: none; background: none; }
+
+.Homecommunication h1 { font-family: 'IBM Plex Sans Devanagari'; font-style: normal; font-weight: 600; font-size: 50px; line-height: 76px; color: #000000; cursor: pointer; }
+
+.Homecommunication .teacher { width: 50%; text-align: center; }
+
+.Homecommunication .friend { width: 50%; text-align: center; border-left: 1px solid #000000; }
+
+.chesst { background: #b5d6e0; height: 100vh; }
+
+.chesst .flex-chesst-1 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-left: 82px; height: 22vh; }
+
+.chesst .flex-chesst-1 .green { background-color: #427a2e; width: 70px; height: 70px; border-radius: 50px; }
+
+.chesst .flex-chesst-1 p { margin-left: 24px; }
+
+.chesst .img-chesst { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 56vh; }
+
+.chesst .img-chesst img { width: 680px; height: 596px; }
+
+.chesst .flex-chesst-2 { padding-right: 82px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 22vh; }
+
+.chesst .flex-chesst-2 .green { background-color: #427a2e; width: 70px; height: 70px; border-radius: 50px; }
+
+.chesst .flex-chesst-2 p { margin-left: 24px; }
+
+.shearch { background: #b5d6e0; height: 100vh; }
+
+.shearch .flex-shearch-1 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-left: 82px; height: 22vh; }
+
+.shearch .flex-shearch-1 .green { background-color: #427a2e; width: 70px; height: 70px; border-radius: 50px; }
+
+.shearch .flex-shearch-1 p { margin-left: 24px; }
+
+.shearch .img-shearch { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 56vh; }
+
+.shearch .img-shearch img { width: 680px; height: 596px; }
+
+.shearch .flex-shearch-2 { padding-right: 82px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 22vh; }
+
+.shearch .flex-shearch-2 .green { background-color: #427a2e; width: 70px; height: 70px; border-radius: 50px; }
+
+.shearch .flex-shearch-2 p { margin-left: 24px; }
+/*# sourceMappingURL=style.css.map */

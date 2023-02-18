@@ -1,0 +1,40 @@
+.Homecommunication {
+    background: #A284D2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        cursor: pointer;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        background: none;
+
+    }
+
+    h1 {
+        font-family: 'IBM Plex Sans Devanagari';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 76px;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .teacher {
+        width: 50%;
+        text-align: center;
+    }
+
+    .friend {
+        width: 50%;
+        text-align: center;
+        border-left: 1px solid #000000;
+    }
+}

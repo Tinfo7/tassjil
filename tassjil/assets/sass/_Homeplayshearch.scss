@@ -1,0 +1,53 @@
+.shearch {
+    background: #b5d6e0;
+    height: 100vh;
+
+    .flex-shearch-1 {
+        display: flex;
+        align-items: center;
+        padding-left: 82px;
+        height: 22vh;
+
+        .green {
+            background-color: #427a2e;
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+        }
+
+        p {
+            margin-left: 24px;
+        }
+    }
+
+    .img-shearch {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 56vh;
+
+        img {
+            width: 680px;
+            height: 596px;
+        }
+    }
+
+    .flex-shearch-2 {
+        padding-right: 82px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 22vh;
+
+        .green {
+            background-color: #427a2e;
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+        }
+
+        p {
+            margin-left: 24px;
+        }
+    }
+}

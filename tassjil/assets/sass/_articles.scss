@@ -1,0 +1,75 @@
+.books {
+    background: #5a9cb0;
+    width: 100%;
+    height: 340vh;
+    h1 {
+        padding-top: 105px;
+        text-align: center;
+        padding-bottom: 186px;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+        .bacground {
+            width: 80%;
+            height: 475px;
+            background: #E1D7C6;
+            border-radius: 22px;
+            .flexobit{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .img-flexbox{
+                    img{
+                        width: 370px;
+                        height: 361px;
+                    }
+                }
+                .titels{
+                    background: #E99B08;
+                    border-radius: 8px;
+                    width: 30%;
+                    h2{
+                        margin: 20px 9px 20px 4px;
+                        font-family:sans-serif, 'Josefin Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 30px;
+                        text-align: right;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+    .diff{
+        img{
+            background: #8E6D6D;
+            border-radius: 11px;
+        }
+        .bacground{
+            .flexobit{
+                .loading{
+                    display: flex;
+                    flex-direction: column;
+                    width: 30%;
+                    height: 28vh;
+                    .titels {
+                        background: #E99B08;
+                        border-radius: 8px;
+                        width: 70%;
+                        height: 7vh;
+                    }
+                    p{
+                        background: #E99B08;
+                        border-radius: 50px;
+                        width: 100%;
+                        height: 2vh;
+                    }
+                }
+            }
+        }
+    }
+}

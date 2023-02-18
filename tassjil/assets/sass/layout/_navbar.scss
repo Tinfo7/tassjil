@@ -1,0 +1,44 @@
+nav{
+    background: #001E6C;
+    width: 100%;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            width: 33%;
+            img{
+                width: 32px;
+                height: 37px;
+                margin-left: 21px;
+                cursor: pointer;
+            }
+        }
+        .btns{
+            width: 33%;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-family: sans-serif;
+                    }
+                }
+            }
+        }
+        .profile{
+            width: 33%;
+            display: flex;
+            justify-content: end;
+            img{
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                margin: 10px 21px 10px 0px;
+            }
+        }
+    }
+}

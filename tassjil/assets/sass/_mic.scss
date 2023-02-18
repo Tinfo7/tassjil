@@ -1,0 +1,52 @@
+.mic{
+    background-color: #3f66cc;
+    .titel-center{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3%;
+        i{
+            width: 10%;
+            height: 13%;
+            font-size: 100px;
+            text-align: center;
+        }
+        h1{
+            padding-top: 2%;
+        }
+    }
+    .youtube{
+        background: rgba(87, 155, 177, 0.42);
+        border-radius: 20px;
+        width: 40%;
+        height: 133vh;
+        margin-left: 30%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        a{
+            button{
+                background: none;
+                border: none;
+                outline: none;
+                img{
+                    width: 412px;
+                    height: 213px;
+                    margin-top: 8%;
+                    cursor: pointer;
+                }
+            }
+        }
+        div{
+            height: 33vh;
+            flex-direction: column;
+            justify-content: end;
+            display: flex;
+            align-items: center;
+            h2{
+                margin-right: 37px;
+            }
+        }
+    }
+}

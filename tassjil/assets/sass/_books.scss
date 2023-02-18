@@ -1,0 +1,209 @@
+.books{
+    background: #5a9cb0;
+    width: 100%;
+    .bacground{
+        width: 60%;
+        height: 475px;
+        background: #E1D7C6;
+        border-radius: 22px;
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        padding-top: 105px;
+        text-align: center;
+    }
+    .beatiful{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 96px;
+        margin-top: 186px;
+        .titels{
+            background: #E99B08;
+            border-radius: 8px;
+            width: 40%;
+            display: flex;
+            justify-content: end;
+            height: 15%;
+            align-items: center;
+            margin: 22px 0px 34px 55%;
+            h2{
+                font-family: 'Judson';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 31px;
+                line-height: 36px;
+                text-align: right;
+                color: #000000;
+                padding-left: 0px;
+                margin-right: 10px;
+            }
+        }
+        p{
+            font-family: 'Judson';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 33px;
+            text-align: right;
+            color: #000000;
+            padding: 0px 44px 0px 16px;
+        }
+    }
+    .theory {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 96px;
+        margin-top: 186px;
+        .titels {
+                background: #E99B08;
+                border-radius: 8px;
+                width: 40%;
+                display: flex;
+                justify-content: end;
+                height: 15%;
+                align-items: center;
+                margin: 22px 0px 34px 55%;
+    
+                h2 {
+                    font-family: 'Judson';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 31px;
+                    line-height: 36px;
+                    text-align: right;
+                    color: #000000;
+                    padding-left: 0px;
+                    margin-right: 10px;
+                }
+        }
+        p {
+                font-family: 'Judson';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 29px;
+                line-height: 33px;
+                text-align: right;
+                color: #000000;
+                padding: 0px 44px 0px 16px;
+        }
+    }
+    .power {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 96px;
+        margin-top: 186px;
+        .titels {
+                background: #E99B08;
+                border-radius: 8px;
+                width: 40%;
+                display: flex;
+                justify-content: end;
+                height: 15%;
+                align-items: center;
+                margin: 22px 0px 34px 55%;
+    
+                h2 {
+                    font-family: 'Judson';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 31px;
+                    line-height: 36px;
+                    text-align: right;
+                    color: #000000;
+                    padding-left: 0px;
+                    margin-right: 10px;
+                }
+        }
+        p {
+                font-family: 'Judson';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 29px;
+                line-height: 33px;
+                text-align: right;
+                color: #000000;
+                padding: 0px 44px 0px 16px;
+        }
+    }
+    .focus {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 96px;
+            margin-top: 186px;
+    
+            .titels {
+                background: #E99B08;
+                border-radius: 8px;
+                width: 40%;
+                display: flex;
+                justify-content: end;
+                height: 15%;
+                align-items: center;
+                margin: 22px 0px 34px 55%;
+    
+                h2 {
+                    font-family: 'Judson';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 31px;
+                    line-height: 36px;
+                    text-align: right;
+                    color: #000000;
+                    padding-left: 0px;
+                    margin-right: 10px;
+                }
+            }
+    
+            p {
+                font-family: 'Judson';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 29px;
+                line-height: 33px;
+                text-align: right;
+                color: #000000;
+                padding: 0px 44px 0px 16px;
+            }
+    }
+    .bigbrain {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 96px;
+            margin-top: 186px;
+    
+            .titels {
+                background: #E99B08;
+                border-radius: 8px;
+                width: 40%;
+                display: flex;
+                justify-content: end;
+                height: 15%;
+                align-items: center;
+                margin: 22px 0px 34px 55%;
+    
+                h2 {
+                    font-family: 'Judson';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 31px;
+                    line-height: 36px;
+                    text-align: right;
+                    color: #000000;
+                    padding-left: 0px;
+                    margin-right: 10px;
+                }
+            }
+    
+            p {
+                font-family: 'Judson';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 29px;
+                line-height: 33px;
+                text-align: right;
+                color: #000000;
+                padding: 0px 44px 0px 16px;
+            }
+    }
+}

@@ -1,0 +1,79 @@
+.advice{
+    background: #3f66cc;
+    height: 320vh;
+    .titel-center{
+        font-family: 'IBM Plex Sans Devanagari';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 43px;
+        line-height: 66px;
+        color: #000000;
+        text-align: center;
+        padding-top: 158px;
+        img{
+            width: 106px;
+            height: 103px;
+        }
+    }
+    h1{
+        font-family: 'IBM Plex Sans Devanagari';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 76px;
+        color: #000000;
+        text-align: center;
+        margin: 161px 0px 169px 0px;
+    }
+    .List {
+        display: flex;
+        flex-direction: column;
+        .flex-coloum {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            div {
+                display: flex;
+                i {
+                    margin: 5px 24px 0px 15px;
+                }
+                p {
+                    font-family: 'Homemade Apple';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 27px;
+                    line-height: 58px;
+                    color: #000000;
+                    text-align: end;
+                    margin-top: 14px;
+                }
+            }
+        }
+        h3 {
+                font-family: 'Istok Web';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                color: #000000;
+                text-align: center;
+                margin-top: 69px;
+        }
+    }
+    a{
+        button{
+            background: #E8630A;
+            border: 2px solid #000000;
+            border-radius: 16px;
+            padding: 5% 15% 5% 15%;
+            margin-left: 34.5%;
+            font-family: 'IBM Plex Sans Devanagari';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 65px;
+            line-height: 99px;
+            color: #000000;
+        }
+    }
+}

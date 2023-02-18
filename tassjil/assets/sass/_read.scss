@@ -1,0 +1,41 @@
+.read{
+    background: #3c69c9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img{
+        cursor: pointer;
+    }
+    
+    .book{
+        width: 50%;
+        text-align: center;
+        button{
+            border: none;
+            outline: none;
+            background: none;
+            a{
+                color: black;
+            }
+    }
+    }
+    .bookandpen{
+        width: 50%;
+        text-align: center;
+        border-left: 1px solid #000000;
+        button{
+            border: none;
+            outline: none;
+            background: none;
+            a{
+                color: black;
+            }
+        }
+        h1{
+            padding-right: 22%;
+            cursor: pointer;
+        }
+    }
+}
